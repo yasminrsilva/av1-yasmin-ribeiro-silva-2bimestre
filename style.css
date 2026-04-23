@@ -5,27 +5,26 @@ body {
 }
 
 header {
-  background-color: #222;
+  background-color: #c90ec9;
   color: white;
   padding: 20px;
   text-aling: center;
 }
 
 nav {
-  backgrubd-color: #444;
+  backgrubd-color: #c0b3b3;
   padding: 10px;
   text-align: center;
 }
 nav a {
-  color: gray;
+  color: rgb(243, 242, 242);
   text-decoration: none;
   margin: 10px;
 }
 main {
   padding-bottom: 30px;
 }
-sectin {
-  margin-bottom: 30px;
-  padding: 15px;
-  border: 1px solid #ccc;
+h1 {
+  justify-content: center;
+  text-align: center;
 }
