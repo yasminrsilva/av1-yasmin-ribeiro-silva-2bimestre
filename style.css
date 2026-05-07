@@ -1,30 +1,70 @@
-body {
-  front-family: arial, helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f4f4;
+    color:#333;
 }
 
-header {
-  background-color: #c90ec9;
-  color: white;
-  padding: 20px;
-  text-aling: center;
+/* TOPO */
+header{
+    background: linear-gradient(90deg,#ff00cc,#cc00ff);
+    color:white;
+    text-align:center;
+    padding:40px 20px;
 }
 
-nav {
-  backgrubd-color: #c0b3b3;
-  padding: 10px;
-  text-align: center;
+header h1{
+    margin:0;
+    font-size:40px;
 }
-nav a {
-  color: rgb(243, 242, 242);
-  text-decoration: none;
-  margin: 10px;
+
+/* MENU */
+nav{
+    margin-top:20px;
 }
-main {
-  padding-bottom: 30px;
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+    transition:0.3s;
 }
-h1 {
-  justify-content: center;
-  text-align: center;
+
+nav a:hover{
+    color:#ffe6ff;
+}
+
+/* CONTEÚDO */
+.container{
+    width:80%;
+    margin:auto;
+    padding:30px 0;
+}
+
+/* CARDS */
+.card{
+    background:white;
+    padding:25px;
+    margin-bottom:25px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h2{
+    color:#cc00aa;
+}
+
+/* RODAPÉ */
+footer{
+    background:#c15aca;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
 }
