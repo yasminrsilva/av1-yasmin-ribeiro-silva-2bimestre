@@ -1,70 +1,150 @@
-body{
-    margin:0;
-    font-family: Arial, Helvetica, sans-serif;
-    background:#f4f4f4;
-    color:#333;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* TOPO */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffe6f2;
+    color: #5c2145;
+}
+
+/* HEADER */
+
 header{
-    background: linear-gradient(90deg,#ff00cc,#cc00ff);
-    color:white;
-    text-align:center;
-    padding:40px 20px;
+    background-color: #ff66b2;
+
+    padding: 25px;
+
+    text-align: center;
 }
 
 header h1{
-    margin:0;
-    font-size:40px;
+    color: white;
+    margin-bottom: 15px;
 }
 
 /* MENU */
-nav{
-    margin-top:20px;
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+
+    margin: 0 15px;
 }
 
 nav a{
-    color:white;
-    text-decoration:none;
-    margin:0 15px;
-    font-weight:bold;
-    transition:0.3s;
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    font-size: 18px;
 }
 
 nav a:hover{
-    color:#ffe6ff;
+    color: #ffe600;
 }
 
 /* CONTEÚDO */
-.container{
-    width:80%;
-    margin:auto;
-    padding:30px 0;
+
+main{
+    width: 90%;
+
+    margin: 30px auto;
 }
 
-/* CARDS */
+/* BOX MODEL */
+
 .card{
-    background:white;
-    padding:25px;
-    margin-bottom:25px;
-    border-radius:15px;
-    box-shadow:0 4px 10px rgba(0,0,0,0.1);
-    transition:0.3s;
+    background-color: white;
+
+    width: 80%;
+
+    margin: 30px auto;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
+    text-align: center;
 }
 
-.card:hover{
-    transform:translateY(-5px);
+/* TEXTOS */
+
+h2{
+    margin-bottom: 20px;
+
+    color: #ff1493;
+
+    font-size: 32px;
 }
 
-.card h2{
-    color:#cc00aa;
+p{
+    margin-bottom: 15px;
+
+    font-size: 18px;
+
+    line-height: 1.6;
 }
 
-/* RODAPÉ */
+/* LISTA */
+
+ul{
+    margin: 20px 0;
+}
+
+ul li{
+    margin: 10px 0;
+}
+
+/* BOTÃO */
+
+.botao{
+    display: inline-block;
+
+    background-color: #ff66b2;
+
+    color: white;
+
+    padding: 12px 25px;
+
+    margin-top: 15px;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+}
+
+.botao:hover{
+    background-color: #ff1493;
+}
+
+/* MÍDIAS */
+
+video,
+audio,
+img{
+    margin-top: 20px;
+}
+
+/* FOOTER */
+
 footer{
-    background:#c15aca;
-    color:white;
-    text-align:center;
-    padding:15px;
-    margin-top:30px;
+    background-color: #ff66b2;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+    margin-top: 40px;
 }

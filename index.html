@@ -1,52 +1,62 @@
-<<!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Pink</title>
 
-    <title>Yasmin Ribeiro Silva</title>
-
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
-<header>
-    <h1>Yasmin Ribeiro Silva</h1>
+    <header>
+        <h1>🌸 Sweet Pink Website 🌸</h1>
 
-    <nav>
-        <a href="#inicio">Início</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#contato">Contato</a>
-    </nav>
-</header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<div class="container">
+    <main>
 
-    <section id="inicio" class="card">
-        <h2>Início</h2>
-        <p>Bem-vindo ao meu site!</p>
-    </section>
+        <section class="card">
+            <h2>Bem-vindo!</h2>
 
-    <section id="sobre" class="card">
-        <h2>Sobre</h2>
-        <p>
-            Tenho 15 anos e meu sonho é viajar para fora do Brasil.
-        </p>
-    </section>
+            <p>
+                Este site foi criado para demonstrar HTML5,
+                CSS3, navegação, mídias e estilização.
+            </p>
 
-    <section id="contato" class="card">
-        <h2>Contato</h2>
-        <p>
-            Quero morar fora do Brasil e ter minha família.
-        </p>
-    </section>
+            <a class="botao" href="#midia">Ir para mídias</a>
+        </section>
 
-</div>
+        <section id="midia" class="card">
 
-<footer>
-    <p>Feito por Yasmin 💖</p>
-</footer>
+            <h2>🎥 Vídeo</h2>
+
+            <video controls width="500">
+                <source src="video/video.mp4" type="video/mp4">
+                Seu navegador não suporta vídeo.
+            </video>
+
+            <h2>🎵 Áudio</h2>
+
+            <audio controls>
+                <source src="audio/musica.mp3" type="audio/mpeg">
+                Seu navegador não suporta áudio.
+            </audio>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Sweet Pink Website</p>
+    </footer>
 
 </body>
 </html>
